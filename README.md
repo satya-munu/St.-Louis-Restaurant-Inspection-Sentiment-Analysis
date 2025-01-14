@@ -11,6 +11,7 @@ This project combines official St. Louis [health inspection data](https://www.he
 - NLTK (VADER) for sentiment analysis
 
 ## Challenges
+- To cross-check VADER's sentiment analysis, I developed a "potential misclassification" metric to compare the assigned sentiment and star rating. [Read about it here](https://docs.google.com/presentation/d/1rh43a-PXiLCaoP4A_SVqx3LXD3wpGoNoKUsV298h7fg/edit?rm=minimal#slide=id.g30b735bcce2_5_77)
 - The health department's website had slow loading times, which required careful handling in the web scraper to avoid timeouts and ensure reliable data retrieval.
 - Parsing HTML was a non-trivial task due to complex structure and nested elements
 - Data availability - not all the restaurants I had Yelp reviews for could be found in the city health department's database
